@@ -14,6 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "Klcknn/docker-instance/aws"
-    key_name = "rahmatullah_key"
+    key_name = "my_keypair"
 }
 
