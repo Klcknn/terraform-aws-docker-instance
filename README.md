@@ -14,6 +14,7 @@ provider "aws" {
 
 module "docker_instance" {
     source = "Klcknn/docker-instance/aws"
-    key_name = "my_keypair"
+    key_name = "write your keypair name without .pem"
 }
 
+```
